@@ -7,5 +7,3 @@ A few things that I learned from the GitHub assignment:
     2. Make changes to the code
     3. Commit the changes (git commit)
     4. Push the changes to GitHub (git push)
-
-I'm seeing if I can make this work right now.
