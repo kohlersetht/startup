@@ -20,3 +20,5 @@ Features:
 -Vote totals displayed in real-time
 -Results will be stored
 -Ability for admin to create new polls and add/delete options
+
+![IMG_0308](https://user-images.githubusercontent.com/119885022/215003826-093d0835-db1a-4409-9680-752e0e7ee270.jpg)
