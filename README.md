@@ -26,4 +26,4 @@ Things that I've learned from the Simon project:
 -Sometimes you need to modify file permissions in order to execute a script
 -Building a form with HTML is actually quite easy
 -HTML without any CSS styling can look very, very boring!
--Writing HTML is almost like typing and formatting a Word document
+-Writing HTML is similar to typing and formatting a Word document
