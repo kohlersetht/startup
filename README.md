@@ -20,3 +20,10 @@ Features:
 -Vote totals displayed in real-time
 -Results will be stored
 -Ability for admin to create new polls and add/delete options
+
+
+Things that I've learned from the Simon project:
+-Sometimes you need to modify file permissions in order to execute a script
+-Building a form with HTML is actually quite easy
+-HTML without any CSS styling can look very, very boring!
+-Writing HTML is almost like typing and formatting a Word document
