@@ -27,3 +27,8 @@ Things that I've learned from the Simon project:
 -Building a form with HTML is actually quite easy
 -HTML without any CSS styling can look very, very boring!
 -Writing HTML is similar to typing and formatting a Word document
+
+Things that I learned from Simon CSS:
+-Bootstrap is an easy way to make HTML look like an actual, legitimate website
+-To add CSS, you can simply put all your CSS code in one file and link to it from each of the HTML files
+-If done right, elements on a webpage should all be able to re-size depending on the size of the device that the page is being viewed on
