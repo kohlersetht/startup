@@ -32,3 +32,9 @@ Things that I learned from Simon CSS:
 -Bootstrap is an easy way to make HTML look like an actual, legitimate website
 -To add CSS, you can simply put all your CSS code in one file and link to it from each of the HTML files
 -If done right, elements on a webpage should all be able to re-size depending on the size of the device that the page is being viewed on
+
+Things that I learned from building my startup HTML and CSS:
+-It is easiest to work in stages. Build out the HTML, and then style with the CSS. Don't worry about the style while you're writing the HTML
+-Let Bootstrap do the heavy lifting. Don't overthink it, it's likely that there is a Bootstrap style for what you are trying to do
+-Put thorough comments in your code. It makes it a lot easier to read and understand when you come back a few days later
+-Don't overcomplicate it. Plan out your site before you start writing code or else you're never going to get what you actually want
