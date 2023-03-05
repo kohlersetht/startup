@@ -38,3 +38,11 @@ Things that I learned from building my startup HTML and CSS:
 -Let Bootstrap do the heavy lifting. Don't overthink it, it's likely that there is a Bootstrap style for what you are trying to do
 -Put thorough comments in your code. It makes it a lot easier to read and understand when you come back a few days later
 -Don't overcomplicate it. Plan out your site before you start writing code or else you're never going to get what you actually want
+
+Things that I learned from Simon Javascript:
+-Javascript is sadly a lot less intuitive than HTML and CSS
+-It really is important that you build all the HTML and CSS out first, and then add the Javascript
+-Throw in console.logs to debug code FAST in the browser
+-One important restriction for working with await is that you cannot call await unless it is called at the top level of the JavaScript, or is in a function that is defined with the async keyword
+-The async keyword declares that a function returns a promise. The await keyword wraps a call to the async function, blocks execution until the promise has resolved, and then returns the result of the promise
+-Applying the async keyword transforms the function so that it returns a promise that will resolve to the value that was previously returned by the function. Basically this turns any function into an asynchronous function, so that it can in turn make asynchronous requests.
