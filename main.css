@@ -50,3 +50,12 @@ div {
 tr {
     text-align: center;
 }
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
