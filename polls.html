@@ -23,6 +23,7 @@
             <menu class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link active" href="polls.html">Polls</a></li>
+                <li class="nav-item"><a class="nav-link" href="scores.html">Scores</a></li>
                 <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
             </menu>
         </nav>
@@ -30,7 +31,7 @@
     <main>
         <div class="container">
             <h2>Greatest NBA Player of All Time</h2>
-            <div class="row">
+            <div class="row" id="votingForm">
                 <!--Michael Jordan-->
                 <div class="col-sm-6 col-md-3">
                     <div class="card mb-3">
@@ -84,7 +85,9 @@
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary mt-3">Vote Now and View Results</button>
+            <a href="scores.html">
+                <button type="submit" class="btn btn-primary mt-3" id="submitButton">Vote Now and View Results</button>
+            </a>
         </div>
     </main>
     <!--Footer-->
@@ -95,5 +98,6 @@
             <a class="text-reset" href="https://github.com/kohlersetht/startup">GitHub</a>
         </div>
     </footer>
+    <script src="polls.js"></script>
 </body>
 </html>
