@@ -14,10 +14,10 @@ radioButtons.forEach((radioButton) => {
 });
 
 // Initialize counters for each option
-let mjCount = 0;
-let lbjCount = 0;
-let kareemCount = 0;
-let russellCount = 0;
+let mjCount = parseInt(localStorage.getItem('mjCount')) || 0;
+let lbjCount = parseInt(localStorage.getItem('lbjCount')) || 0;
+let kareemCount = parseInt(localStorage.getItem('kareemCount')) || 0;
+let russellCount = parseInt(localStorage.getItem('russellCount')) || 0;
 
 // get the submit button
 const submitButton = document.getElementById('submitButton');
