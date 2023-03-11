@@ -28,14 +28,61 @@
             </menu>
         </nav>
     </header>
-    <!--Display running totals-->
-    <h1>Scores</h1>
-    <ul>
-        <li>Michael Jordan: <span id="mjVotes"></span></li>
-        <li>LeBron James: <span id="lbjVotes"></span></li>
-        <li>Kareem Abdul-Jabbar: <span id="kareemVotes"></span></li>
-        <li>Bill Russell: <span id="russellVotes"></span></li>
-    </ul>
+    <main>
+        <div class="container">
+            <!--Scores Cards-->
+            <h1>Scores</h1>
+            <div class="row" id="votingForm">
+                <!--Michael Jordan-->
+                <div class="col-sm-6 col-md-3">
+                    <div class="card mb-3">
+                        <img src="https://guardian.ng/wp-content/uploads/2020/05/Michael-Jordan.-Photo-Vulture-1.jpg" width="150" height= "200" class="card-img-top" alt="Michael Jordan">
+                        <div class="card-body">
+                            <h5 class="card-title">Michael Jordan</h5>
+                            <p>Votes: <span id="mjVotes"></span></p>
+                        </div>
+                    </div>
+                </div>
+                <!--LeBron James-->
+                <div class="col-sm-6 col-md-3">
+                    <div class="card mb-3">
+                        <img src="https://pyxis.nymag.com/v1/imgs/847/0f7/504c63a03d8a751a5cbeda0bc064306bb4-lebron-james.2x.rhorizontal.w700.jpg" width="150" height="200" class="card-img-top" alt="LeBron James">
+                        <div class="card-body">
+                            <h5 class="card-title">LeBron James</h5>
+                            <p>Votes: <span id="lbjVotes"></span></p>
+                        </div>
+                    </div>
+                </div>
+                <!--Kareem-->
+                <div class="col-sm-6 col-md-3">
+                    <div class="card mb-3">
+                        <img src="https://static01.nyt.com/images/2023/02/02/sports/00nba-lebron-kareem01/00nba-lebron-kareem01-superJumbo.jpg?quality=75&auto=webp" width="150" height="200" class="card-img-top" alt="Kareem Abdul-Jabbar">
+                        <div class="card-body">
+                            <h5 class="card-title">Kareem Abdul-Jabbar</h5>
+                            <p>Votes: <span id="kareemVotes"></span></p>
+                        </div>
+                    </div>
+                </div>
+                <!--Bill Russell-->
+                <div class="col-sm-6 col-md-3">
+                    <div class="card mb-3">
+                        <img src="https://www.si.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_872/MTY4MTk2NDY0Mzg0ODEyOTI5/1955-0209-bill-russelljpg.webp" width="150" height="200" class="card-img-top" alt="Bill Russell">
+                        <div class="card-body">
+                            <h5 class="card-title">Bill Russell</h5>
+                            <p>Votes: <span id="russellVotes"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <hr>
+            <span class="text-reset">Seth Kohler</span>
+            <a class="text-reset" href="https://github.com/kohlersetht/startup">GitHub</a>
+        </div>
+    </footer>
     <script src="scores.js"></script>
 </body>
 </html>
