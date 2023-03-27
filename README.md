@@ -81,3 +81,14 @@ Neo4J	Graph based data
 InfluxDB	Time series data
 
 -Unlike relational databases that require a rigid table definition where each column must be strictly typed and defined beforehand, Mongo has no strict schema requirements. Each document in the collection usually follows a similar schema, but each document may have specialized fields that are present, and common fields that are missing. This allows the schema of a collection to morph organically as the data model of the application evolves.
+
+
+Notes from Simon-Login:
+-If your application is going to remember a user's data then it will need a way to uniquely associate the data with a particular credential. That usually means that you authenticate a user by asking for information, such as an email address and password. You then remember, for some period of time, that the user has authenticated by storing an authentication token on the user's device. Often that token is stored in a cookie that is passed back to your web service on each request. The service can now associate data that the user supplies with a unique identifier that corresponds to their authorization token.
+-Web services often have a getMe endpoint that gives information about the currently authenticated user
+-User authentication usually requires two service endpoints. One to initially create an authentication credential, and a second to authenticate, or login, on future visits. Once a user is authenticated we can control access to other endpoints.
+-Instead of storing the password directly, we want to cryptographically hash the password so that we never store the actual password. When we want to validate a password during login, we can hash the login password and compare it to our stored hash of the password.
+-"httpOnly" tells the browser to not allow JavaScript running on the browser to read the cookie.
+-"secure" requires HTTPS to be used when sending the cookie back to the server.
+-"sameSite" will only return the cookie to the domain that generated it.
+-The login authorization endpoint needs to get the hashed password from the database, compare it to the provided password using bcrypt.compare, and if successful set the authentication token in the cookie. 
