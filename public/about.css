@@ -1,0 +1,10 @@
+.quote-box {
+    margin-top: 1000em;
+    padding: 0.5em;
+    border-radius: 50px;
+    background-color: transparent !important;
+}
+  
+.quote {
+    font-style: italic;
+}
